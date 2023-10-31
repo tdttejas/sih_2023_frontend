@@ -6,12 +6,12 @@ const Navbar = () => {
   return (
     <div className="bg-blue-500 p-4 flex justify-between items-center">
       <div>
-        <span className="text-white font-bold text-xl">Hello World</span>
+        <span className="text-white font-bold text-xl">CRPF Log Analyzer Dashboard</span>
       </div>
       <div>
          <button
         onClick={() => logout({ returnTo: window.location.origin })}
-        className="bg-blue-200 text-white rounded-lg p-2 px-4"
+        className="bg-red-800 text-white rounded-lg p-2 px-4"
       >
         Log Out
       </button>
